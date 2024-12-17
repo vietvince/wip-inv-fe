@@ -1,2 +1,2 @@
 # wip-inv-fe
-Watersheds Innovations Projection : Inventory Database Frontend
+Watersheds Innovations Project : Inventory Database Frontend
