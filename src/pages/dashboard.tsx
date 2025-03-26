@@ -48,14 +48,6 @@ const Dashboard = () => {
             </div>
             <h3>45,678 <span className={styles.subtext}>items in stock</span></h3>
           </div>
-
-          <div className={styles.notificationsCard}>
-            <h4>Notifications</h4>
-            <ul>
-              <li className={styles.warning}>⚠️ Low stock alert: Item #45892</li>
-              <li className={styles.error}>❌ Failed delivery: Order #78391</li>
-            </ul>
-          </div>
         </div>
 
         {/* Recent Transactions */}

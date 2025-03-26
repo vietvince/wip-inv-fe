@@ -118,7 +118,7 @@
     align-items: center;
     gap: 8px;
     font-size: 14px;
-    color: #111827; /* ✅ Make the text visible */
+    color: #111827;
 }
 
 .checkbox input {
