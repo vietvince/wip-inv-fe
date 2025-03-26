@@ -1,0 +1,170 @@
+/* dashboard.module.css */
+.dashboardContainer {
+    display: flex;
+    height: 100vh;
+    font-family: sans-serif;
+  }
+  
+  .sidebar {
+    width: 220px;
+    background-color: #1e1e2f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .navMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .navItem {
+    color: #a0aec0;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .navItem:hover,
+  .active {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .mainContent {
+    flex: 1;
+    background-color: #f9fafb;
+    padding: 30px;
+    overflow-y: auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .header h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .header p {
+    margin: 0;
+    color: #6b7280;
+  }
+  
+  .headerIcons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 20px;
+    color: #4b5563;
+  }
+  
+  .profileIcon {
+    font-size: 28px;
+  }
+  
+  .cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .cardHeader {
+    display: flex;
+    justify-content: space-between;
+    color: #6b7280;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .growth {
+    color: #10b981;
+    font-size: 12px;
+  }
+  
+  .subtext {
+    color: #6b7280;
+    font-size: 12px;
+  }
+  
+  .notificationsCard {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    height: 100%;
+  }
+  
+  .notificationsCard h4 {
+    margin-bottom: 12px;
+  }
+  
+  .notificationsCard ul {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+  }
+  
+  .warning {
+    background-color: #fef3c7;
+    color: #92400e;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+  }
+  
+  .error {
+    background-color: #fee2e2;
+    color: #991b1b;
+    padding: 8px;
+    border-radius: 6px;
+  }
+  
+  .transactionsSection {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .transactionsSection h4 {
+    margin-bottom: 12px;
+  }
+  
+  .transactionsSection ul {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+    color: #374151;
+  }
+  
+  .received {
+    color: #10b981;
+    font-weight: bold;
+  }
+  
+  .shipped {
+    color: #ef4444;
+    font-weight: bold;
+  }
+  

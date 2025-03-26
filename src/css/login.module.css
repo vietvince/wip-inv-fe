@@ -1,0 +1,157 @@
+/* Container for the whole page */
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+/* Left side (branding section) */
+.left {
+    background-color: #1e1e9e;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+}
+
+.left h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.left p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #d1d5db;
+    margin-bottom: 32px;
+}
+
+/* Right side (form section) */
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    background-color: #f9fafb;
+}
+
+/* Form container */
+.form {
+    width: 100%;
+    max-width: 360px;
+}
+
+/* Heading */
+.form h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 8px;
+}
+
+.form p {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 24px;
+}
+
+/* Form fields */
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.inputField {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #111827;
+    background-color: #ffffff;
+    outline: none;
+    box-sizing: border-box; /* ✅ Add this line */
+    transition: border-color 0.2s ease-in-out;
+}
+
+
+.inputField:focus {
+    border-color: #6366f1;
+}
+
+/* Sign in button */
+.signInBtn {
+    width: 100%;
+    background-color: #6366f1;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.signInBtn:hover {
+    background-color: #4f46e5;
+}
+
+/* Remember me and Forgot Password */
+.loginOptions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #111827; /* ✅ Make the text visible */
+}
+
+.checkbox input {
+    width: 16px;
+    height: 16px;
+    accent-color: #6366f1;
+}
+
+.forgotPassword {
+    font-size: 14px;
+    color: #6366f1;
+    text-decoration: none;
+}
+
+.forgotPassword:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    margin-top: 32px;
+    font-size: 14px;
+    color: #6b7280;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.footer a {
+    color: #6366f1;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
